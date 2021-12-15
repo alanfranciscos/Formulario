@@ -1,0 +1,75 @@
+/*.form-header {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0 1em 0;
+}*/
+.box-form {
+    background-color: white;
+    width: 80%;
+    position: relative;
+    font-size: 1em;
+    margin: 2% 10%;
+    display: inline-block;
+}
+.question-image {
+    width: 100%;
+    margin-left: 3em;
+}
+.image{
+    width: 45%;
+    float:left;
+}
+.form-main {
+    display: block;
+    margin: 0 0 20px;
+    /*padding: 10px 25px;*/
+    width: 45%;
+    float:right;
+}
+form {
+    margin:40px;
+}
+form input {
+    /*border-radius: 10px;*/
+    width: 100%;
+    /*padding: 0 0.5em;*/
+    margin:1em 0 1em 0;
+}
+form label, form p{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset legend { 
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+.contact {
+    width: 100%;
+}
+.contact label {
+    display: inline-block;
+    margin: 0.5em 10% 1em 10%;
+}
+
+fieldset select {
+    width: 20%;
+    text-align: center;
+    margin: 1em 40%;
+}
+.checkbox {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.submit {
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 25%;
+}
